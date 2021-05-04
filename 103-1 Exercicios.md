@@ -16,4 +16,4 @@ A localização do comando tar; which tar
 
 2. Crie e exporte uma variável chamada "NOME" que contenha o seu nome completo.; export NOME='Alexander Andrade Cerlini'
 
-3. Crie um comando que escreva na tela a seguinte frase: "O Conteúdo da Variável $NOME é: <Valor da Variável NOME>"
+3. Crie um comando que escreva na tela a seguinte frase: "O Conteúdo da Variável $NOME é: <Valor da Variável NOME>"; echo O Conteúdo da Variável \$NOME é $NOME
