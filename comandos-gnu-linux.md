@@ -71,3 +71,37 @@ comando1 || comando 2 -> executa o comando1 e se for falha, executa o comando2
 !string -> repete o ultimo comando que tenha essa string
 
 history -c -> limpa o history
+
+atalho ctrl+r string -> pesquisa o history de comandos em live time
+
+apertar o tab 2x -> mostra o autocomplete do comando
+
+man comando -> mostra o manual do comando
+
+quando o comando é interno não tem manual foi faz parte do bash então man bash para ver
+
+info comando -> perto de um man reduzido
+
+man -k "string" -> busca comandos que tenham a string
+
+apropos "string" -> busca comandos que tenham a string
+
+whatis comando -> o que é esse comando
+
+comando --help -> ótimo para explorar possibilidades do comando
+
+uname -> fala do linux (versão, arquitetura..)
+
+alias -> atalhos:
+
+alias atalho='uname -a" -> executa uname -a quando digitar atalho (temporariamente)
+
+which comando -> localiza onde está o comando
+
+echo \* -> imprime na tela tudo o que está na pasta atual
+
+echo '\*' -> imprime \* na tela (funciona com aspas duplas também)
+
+echo '\\\*' -> imprime \\\*
+
+echo "\\\*" -> imprime \*
